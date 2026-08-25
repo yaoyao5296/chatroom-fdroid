@@ -1,0 +1,73 @@
+{
+  "repo": {
+    "timestamp": 1787659030000,
+    "categories": {
+      ".tmp-fdroid": {
+        "name": {
+          "en-US": ".tmp-fdroid"
+        }
+      }
+    }
+  },
+  "packages": {
+    "com.chatroom.app": {
+      "metadata": {
+        "added": 1787659026000,
+        "categories": [
+          ".tmp-fdroid"
+        ],
+        "lastUpdated": 1787659026000,
+        "name": {
+          "en-US": "ChatRoom"
+        },
+        "preferredSigner": "22074e56c6ca59fe3d7ec5a7a793a9a9834095af226b38a934f86c4b5e9f4dbd"
+      },
+      "versions": {
+        "cd297859cc8c2f7b4f8a6c533168f144fbb15ef3129c0f4c100040c81c5ad45d": {
+          "added": 1787659026000,
+          "file": {
+            "name": "/ChatRoom.apk",
+            "sha256": "cd297859cc8c2f7b4f8a6c533168f144fbb15ef3129c0f4c100040c81c5ad45d",
+            "size": 30978468
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "22074e56c6ca59fe3d7ec5a7a793a9a9834095af226b38a934f86c4b5e9f4dbd"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.chatroom.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
